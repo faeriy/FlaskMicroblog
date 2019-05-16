@@ -1,15 +1,15 @@
-{% extends 'base.html' %}
+{%  extends 'base.html' %}
 
 {% block title %}
-
-    Index Page
-
+    {{ post.title }}
 {% endblock %}
 
 {% block content_title %}
-    Index Page
+    {{ post.title }}
 {% endblock %}
 
 {% block content %}
-     SOME CONTENT!
+
+    {{ post.body }}
+
 {% endblock %}
